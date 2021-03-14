@@ -1,0 +1,10 @@
+body {
+    text-align : center;
+}
+
+#output {
+    background : red;
+    color : white;
+    font-size :3.0em;
+    font-weight : strong;
+}

@@ -6,5 +6,15 @@
     <script src="script.js"></script>
 </head>
 <body>
+    <form>
+        <label>Temperature</label><input tpye="text" id="temperature" name="temp" class=
+        "form-control" value="32" /><br/>
+        <label>Temperature Given Is:</label><br/>
+        <input type="radio" name="temp_type" id="temp_type_f" value="Fahrenheit" checked="checked" /><label>Fahrenheit</label>
+        <input type="radio" name="temp_type" id="temp_type_c" value="Celsius" /><label>Celcius</label><br/>
+        <input type="button" onclick="convertTemp();" value="Submit" />
+        <input type="button" onclick="clearTemp()" value="Clear" />
+        <div id="output">0°Celsius</div>
+    </form>
 </body>
 </html>
